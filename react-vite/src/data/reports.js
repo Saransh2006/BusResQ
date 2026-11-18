@@ -1,0 +1,32 @@
+export const initialReports = [
+{
+    id : "BRQ-1042" , 
+    category : "Bus Breakdown" , 
+    busNumber : "PB-08-2041" , 
+    route : "Route 12" , 
+    description : "Engine stopped during journey" , 
+    status : "Queued" , 
+    syncStatus : "offline" , 
+    createdAt : "Today , 10:30 AM",
+} , 
+{
+    id : "BRQ-1038" , 
+    category : "Medical Issue " , 
+    busNumber : "PB-08-1025" , 
+    route : "Route 5" , 
+    description : "Medical issue  during journey" , 
+    status : "Recieved" , 
+    syncStatus : "synced" , 
+    createdAt : "Yesterday , 4:30 PM",
+} , 
+{
+    id : "BRQ-1031" , 
+    category : "Bus Breakdown" , 
+    busNumber : "PB-08-2091" , 
+    route : "Route 12" , 
+    description : "Engine stopped during journey" , 
+    status : "Resolved" , 
+    syncStatus : "synced" , 
+    createdAt : "Yesterday , 11:30 AM",
+} , 
+];
